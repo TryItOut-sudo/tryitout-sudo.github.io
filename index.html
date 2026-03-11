@@ -28,15 +28,20 @@
   <pre id="out">Loading...</pre>
 
   <script>
-    fetch("./summary.json")
-      .then(r => r.json())
+    fetch("./summary.json?ts=" + Date.now())
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("HTTP " + response.status);
+        }
+        return response.json();
+      })
       .then(data => {
         document.getElementById("out").textContent =
           JSON.stringify(data, null, 2);
       })
       .catch(err => {
         document.getElementById("out").textContent =
-          "Could not load summary.json\n\n" + err;
+          "Could not load summary.json\n\n" + err.message;
       });
   </script>
 </body>
