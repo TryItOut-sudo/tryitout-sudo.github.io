@@ -2,14 +2,289 @@
   "title": "Jeff Epstein Research Baseline",
   "version": "2026-03-11",
   "sections": {
-    "grandparents": [],
-    "parents": [],
-    "siblings": [],
-    "document_provenance": [],
-    "childhood_traits": [],
-    "family_narrative": [],
-    "verified_facts": [],
-    "unverified_leads": [],
-    "open_questions": []
+    "grandparents": [
+      {
+        "name": "Max Mortchel Stolofsky",
+        "side": "maternal",
+        "birth_year": 1893,
+        "death_year": 1954,
+        "birthplace": "Kapciamiestis",
+        "occupation": "House-wrecker / demolition contractor",
+        "notes": ""
+      },
+      {
+        "name": "Sora-Leia \"Lena\" Berlin",
+        "side": "maternal",
+        "birth_year": 1891,
+        "death_year": 1952,
+        "birthplace": "Moletai",
+        "occupation": "Homemaker",
+        "notes": ""
+      },
+      {
+        "name": "Julius Epstein",
+        "side": "paternal",
+        "birth_year": 1882,
+        "death_year": 1944,
+        "birthplace": "Bialystok (then Russian Empire, now Poland)",
+        "occupation": "Operated a house-wrecking / demolition company in New York",
+        "notes": ""
+      },
+      {
+        "name": "Elizabeth Tesher",
+        "side": "paternal",
+        "birth_year": 1887,
+        "death_year": 1960,
+        "birthplace": "Brest (then Russian Empire, now Belarus)",
+        "occupation": "Homemaker",
+        "notes": ""
+      }
+    ],
+    "parents": [
+      {
+        "name": "Pauline \"Paula\" Stolofsky Epstein",
+        "relation": "mother",
+        "birth_year": 1918,
+        "death_year": 2004,
+        "birthplace": "New York City (The Bronx)",
+        "occupation": "Homemaker; later school aide and clerk",
+        "characterization": "Reported as socially active, outgoing, ambitious, and the social glue who pushed for upward mobility",
+        "notes": ""
+      },
+      {
+        "name": "Seymour George Epstein",
+        "relation": "father",
+        "birth_year": 1916,
+        "death_year": 1991,
+        "birthplace": "New York City (Brooklyn)",
+        "occupation": "NYC Parks Department groundskeeper/gardener and process server",
+        "characterization": "Reported as strict, old-school, disciplinarian, tough, abrasive, and no-nonsense",
+        "notes": ""
+      }
+    ],
+    "siblings": [
+      {
+        "name": "Mark Epstein",
+        "relation": "brother",
+        "birth_year": 1954,
+        "birthplace": "Brooklyn, New York",
+        "occupation": "Real estate developer; associated with Ossa Properties and other ventures",
+        "characterization": "Reported as more grounded, business-oriented, and lower-profile than Jeffrey",
+        "notes": "Approximately 18 months younger than Jeffrey; sources say they shared a bedroom in Sea Gate"
+      }
+    ],
+    "document_provenance": [
+      {
+        "source": "User baseline file jeffSummary",
+        "date": "2026-03-11",
+        "notes": "Structured research baseline focused on Epstein family background, social context, Jewish migration context, Sea Gate, and reported family characterizations"
+      },
+      {
+        "source": "Canonical refresh URL",
+        "date": "2026-03-11",
+        "notes": "https://tryitout-sudo.github.io/summary.json"
+      }
+    ],
+    "childhood_traits": [
+      {
+        "trait": "Math/science-oriented childhood environment",
+        "source": "Contextual inference from Sputnik-era education climate",
+        "notes": "Space Race panic and science/math emphasis form part of the stated environment Jeffrey grew up in"
+      }
+    ],
+    "family_narrative": [
+      {
+        "topic": "Age gap and domestic setting",
+        "notes": "Mark was about 18 months younger; sources say the brothers shared a bedroom in a modest Sea Gate home"
+      },
+      {
+        "topic": "Business overlap",
+        "notes": "Reporting linked Ossa Properties to a Manhattan building where some alleged victims/associates were said to have stayed; Mark denied knowledge of Jeffrey Epstein's crimes"
+      },
+      {
+        "topic": "Successor role",
+        "notes": "After Seymour's death, Mark reportedly became primary steward of remaining family New York assets and reputation before Jeffrey's wealth peaked"
+      },
+      {
+        "topic": "Migration pattern",
+        "notes": "Large Jewish migration to America from Eastern Europe was driven by persecution and economic survival; community networks reinforced chain migration"
+      },
+      {
+        "topic": "Brooklyn settlement pattern",
+        "notes": "Many Jewish immigrant families moved outward from the Lower East Side into Brooklyn for more space, transit access, and expanding institutions"
+      },
+      {
+        "topic": "Integration pattern",
+        "notes": "Integration often meant enclave-building first, then gradual movement into broader civic and professional life across generations"
+      },
+      {
+        "topic": "Postwar trauma and silence",
+        "notes": "Trauma effects in Jewish communities could include silence, hypervigilance, grief, and status-seeking as a shield; important but uneven and should not be universalized"
+      },
+      {
+        "topic": "Community variation",
+        "notes": "Brooklyn Jewish life varied sharply by neighborhood, class, denomination, and degree of insularity or integration"
+      },
+      {
+        "topic": "Sea Gate context",
+        "notes": "Sea Gate is a private gated community at the western end of Coney Island with documented Jewish communal institutions by the early 1910s"
+      },
+      {
+        "topic": "Sea Gate exclusionary history",
+        "notes": "Reported and historically documented exclusionary practices existed in the broader area; by the postwar period Jewish settlement expanded as legal barriers weakened"
+      }
+    ],
+    "verified_facts": [
+      {
+        "fact": "Max Mortchel Stolofsky was born in 1893 and died in 1954",
+        "notes": ""
+      },
+      {
+        "fact": "Sora-Leia \"Lena\" Berlin was born in 1891 and died in 1952",
+        "notes": ""
+      },
+      {
+        "fact": "Julius Epstein was born in 1882 and died in 1944",
+        "notes": ""
+      },
+      {
+        "fact": "Elizabeth Tesher was born in 1887 and died in 1960",
+        "notes": ""
+      },
+      {
+        "fact": "Pauline \"Paula\" Stolofsky Epstein was born in 1918 and died in 2004",
+        "notes": ""
+      },
+      {
+        "fact": "Seymour George Epstein was born in 1916 and died in 1991",
+        "notes": ""
+      },
+      {
+        "fact": "Mark Epstein was born in 1954",
+        "notes": ""
+      },
+      {
+        "fact": "Sea Gate is a private gated community at the western end of Coney Island",
+        "notes": ""
+      },
+      {
+        "fact": "Sea Gate Sisterhood formed in 1911",
+        "notes": "Used as evidence of early organized Jewish communal life in the area"
+      },
+      {
+        "fact": "Talmud Torah of Coney Island was organized in 1912",
+        "notes": "Used as evidence of early organized Jewish communal life in the area"
+      }
+    ],
+    "unverified_leads": [
+      {
+        "lead": "Reported characterization of Paula as socially ambitious and upward-mobility oriented",
+        "notes": "Useful for family dynamics framing but should stay labeled as characterization"
+      },
+      {
+        "lead": "Reported characterization of Seymour as abrasive and highly disciplinary",
+        "notes": "Useful but should remain source-labeled"
+      },
+      {
+        "lead": "Mark as more grounded and business-oriented than Jeffrey",
+        "notes": "Interpretive characterization, not hard fact"
+      },
+      {
+        "lead": "Ossa Properties overlap with Manhattan location tied to alleged victims/associates",
+        "notes": "Needs exact sourcing and careful treatment"
+      },
+      {
+        "lead": "Sea Gate-specific anti-Jewish exclusionary signage history in nearby enclave culture",
+        "notes": "Historically plausible and often reported, but should be pinned to specific sources"
+      },
+      {
+        "lead": "Domestic survivor-trauma atmosphere may have shaped neighborhood family dynamics",
+        "notes": "Useful interpretive frame, but should remain general and not be over-applied to the Epstein household without evidence"
+      }
+    ],
+    "open_questions": [
+      {
+        "question": "How directly did postwar Jewish trauma culture affect the Epstein household specifically, rather than Brooklyn Jewish life generally?",
+        "notes": ""
+      },
+      {
+        "question": "What was the exact socioeconomic trajectory of the Epstein family from immigrant trades into later class mobility?",
+        "notes": ""
+      },
+      {
+        "question": "How much of Mark Epstein's business activity intersected with Jeffrey's operations, if at all?",
+        "notes": ""
+      },
+      {
+        "question": "What precise local records best document Sea Gate's exclusionary history and later demographic shift?",
+        "notes": ""
+      },
+      {
+        "question": "Which family personality descriptions come from firsthand neighbors versus later reporting or retrospective interpretation?",
+        "notes": ""
+      }
+    ],
+    "climate_science_news": [
+      {
+        "topic": "Atomic Age",
+        "notes": "Duck and Cover drills in NYC schools due to Cold War nuclear anxiety"
+      },
+      {
+        "topic": "Polio vaccine",
+        "notes": "Jonas Salk discovered the polio vaccine in 1955, ending a period of intense public fear"
+      },
+      {
+        "topic": "Space Race",
+        "notes": "Sputnik launch in 1957 caused national panic and a push for science and math education"
+      },
+      {
+        "topic": "Urban pollution",
+        "notes": "1950s smog concerns in NYC contributed to early air-pollution awareness"
+      }
+    ],
+    "political_context": [
+      {
+        "topic": "Red Scare",
+        "notes": "McCarthyism affected Jewish intellectual and civil-service life in the broader period context"
+      },
+      {
+        "topic": "Israel 1948",
+        "notes": "Founding of Israel shifted Jewish political and identity focus in many communities"
+      },
+      {
+        "topic": "Eisenhower era",
+        "notes": "Outward stability alongside civil-rights tension and social change"
+      }
+    ],
+    "sociology_context": [
+      {
+        "topic": "Push factors for migration",
+        "notes": "Pogroms, legal restrictions, antisemitism, poverty, and limited opportunity in Eastern Europe"
+      },
+      {
+        "topic": "Pull factors in America",
+        "notes": "Religious freedom, urban labor markets, chain migration, and aid networks in NYC"
+      },
+      {
+        "topic": "Common occupations",
+        "notes": "Garment work, peddling, retail, trades, clerical and sales pathways with upward mobility"
+      },
+      {
+        "topic": "Anti-Jewish discrimination",
+        "notes": "Housing exclusion, hiring barriers, social-club exclusion, and economic precarity"
+      },
+      {
+        "topic": "Community norms",
+        "notes": "Family-centered life, institutions, education, mutual aid, philanthropy, and social mobility emphasis"
+      },
+      {
+        "topic": "Contemporary Brooklyn nuance",
+        "notes": "Brooklyn includes both strong Orthodox concentrations and areas of hardship alongside strong infrastructure"
+      },
+      {
+        "topic": "Integration with other demographics",
+        "notes": "Shared immigrant urban life with Italians, Irish, and other groups, with changing patterns of coexistence and friction"
+      }
+    ]
   }
 }
