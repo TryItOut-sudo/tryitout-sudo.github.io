@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Research Baseline</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 16px;
+      line-height: 1.5;
+    }
+    pre {
+      background: #111;
+      color: #eee;
+      padding: 16px;
+      border-radius: 8px;
+      overflow: auto;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+  <h1>Research Baseline</h1>
+  <p>This is the public baseline source.</p>
+  <pre id="out">Loading...</pre>
+
+  <script>
+    fetch("./summary.json")
+      .then(r => r.json())
+      .then(data => {
+        document.getElementById("out").textContent =
+          JSON.stringify(data, null, 2);
+      })
+      .catch(err => {
+        document.getElementById("out").textContent =
+          "Could not load summary.json\n\n" + err;
+      });
+  </script>
+</body>
+</html>
